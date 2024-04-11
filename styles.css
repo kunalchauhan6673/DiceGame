@@ -67,11 +67,14 @@ color: black;
 
 
 @media (max-width: 786px) {
+  .container {
+  width: 100%; 
+}
   .flex{
     display: flex;
   }
   h1{
-    font-size: 2rem;
+    font-size: 3rem;
   }
   p{
     font-size: 1.54rem;
@@ -81,12 +84,12 @@ color: black;
     width: 40%;
 }
 .button{
-  margin-top: 10%;
+  margin-top: 15%;
   font-size: 15px;
   font-weight: 700;
   padding: 12px 30px;
 }
 footer{
-  font-size: 1.5rem;
+  font-size: 2rem;
 }
 }
