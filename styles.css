@@ -1,0 +1,83 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+  
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #1A1A1C;
+}
+
+h1 {
+  margin: 30px;
+  font-family: "Honk", system-ui;
+  text-shadow: 5px 0 #000000;
+  font-size: 7rem;
+  /* color: #C7493A; */
+}
+
+p {
+  font-size: 2rem;
+  /* color: #A33327; */
+  font-family: "Honk", system-ui;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #C3083F;
+  text-align: center;
+  font-family: "Darker Grotesque", sans-serif;
+
+}
+footer a{
+  text-decoration: none;
+  color: #C3083F;
+}
+footer a:hover{
+  cursor: pointer;
+  color: #FFF571;
+}
+
+.button{
+  cursor: pointer;
+  font-size: 13px;
+  font-weight: 700;
+  padding: 8px 26px;
+  border: 1px solid black;
+  border-radius: 50px;
+  color: #000000;
+  background: linear-gradient(135deg,#FFFF7E,#FF5B84);
+}
+.button:hover{
+transition: 2s;
+background: linear-gradient(135deg,#FF5B84,#FFFF7E);
+color: black;
+}
+
+
+@media (max-width: 786px) {
+  .flex{
+    display: flex;
+  }
+  h1{
+    font-size: 2.20rem;
+  }
+  p{
+    font-size: 1.54rem;
+  }
+  img{
+    margin-top: 0px;
+    width: 40%;
+}
+}
