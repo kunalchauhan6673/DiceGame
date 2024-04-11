@@ -1,4 +1,4 @@
-Here's a more detailed synopsis of the Dice Game project:
+Dice Game project:
 
 The Dice Game is a web-based application that allows two players to compete against each other in a simple dice rolling game. The project is built using a combination of HTML, CSS, and JavaScript, providing a visually appealing and interactive user experience.
 
